@@ -295,7 +295,7 @@ async function search(name, parent) {
     selector: {
       name: { $eq: name }
     },
-    fields: ['_id', 'name', 'uuid', 'type', 'digest', 'size', 'uploadTime']
+    fields: ['_id', 'name', 'type', 'digest', 'size', 'uploadTime']
   }, {
     headers: {
       'Content-Type': 'application/json'
@@ -320,15 +320,32 @@ async function update(item, parent) {
   }
   else {
     const { data } = await client.get(`${repository.databaseURL}/_uuids`);
-    item.uuid = data.uuids[0];
-    item._id = `${parent}:${item.uuid}`;
+    item._id = `${parent}:${data.uuids[0]}`;
   }
-  const { data } = await client.post(`${repository.databaseURL}/${databaseName}`, item, {
-    headers: {
-      'Content-Type': 'application/json'
+  try {
+    const { data } = await client.post(`${repository.databaseURL}/${databaseName}`, item, {
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    });
+    return data.id.split(':')[1];
+  }
+  catch (error) {
+    if (error.response) {
+      if (error.response.status === 409 && error.response.data?.error === 'conflict') {
+        const { headers } = await client.head(`${repository.databaseURL}/${databaseName}/${item._id}`);
+        if (headers['etag']) item._rev = headers['etag'].replaceAll('"', '');
+        else throw error;
+        const { data } = await client.post(`${repository.databaseURL}/${databaseName}`, item, {
+          headers: {
+            'Content-Type': 'application/json'
+          }
+        });
+        return data.id.split(':')[1];
+      }
     }
-  });
-  return data.id.split(':')[1];
+    throw error;
+  }
 }
 
 async function add(paths, item) {
@@ -368,7 +385,7 @@ async function list() {
   const databaseName = repositoryUrl.replace(/\//g, '-').replace(/\./g, '_');
   const { data } = await client.post(`${repository.databaseURL}/${databaseName}/_find`, {
     selector: { _id: { $gt: '0' } },
-    fields: ['_id', 'name', 'uuid', 'type', 'digest', 'size', 'uploadTime'],
+    fields: ['_id', 'name', 'type', 'digest', 'size', 'uploadTime'],
     sort: [{ uploadTime: 'desc' }]
   }, {
     headers: {
@@ -382,7 +399,7 @@ function parse(array) {
   const mark = {};
   const root = [];
   array.forEach(item => {
-    mark[item.uuid] = item;
+    mark[item._id.split(':')[1]] = item;
     item.id = Symbol();
     if (item.type === 'folder') item.files = [];
   });
