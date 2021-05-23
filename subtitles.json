@@ -1,8 +1,14 @@
 [
   {
-    "name": "[Erai-raws] Sentouin Hakenshimasu! - 08 [v0][1080p][Multiple Subtitle].zh-Hans.srt",
-    "path": "Offline/Anime_Offline/战斗员派遣中！",
-    "url": "https://i0.hdslb.com/bfs/subtitle/7f9367141d73de8809f13985129addfef1e4a57d.json",
-    "delay": 10.05
+    "name": "[Erai-raws] Dragon Ie o Kau - 08 [v0][1080p][Multiple Subtitle].zh-Hans.srt",
+    "path": "Offline/Anime_Offline/龙先生，想要买个家。",
+    "url": "https://i0.hdslb.com/bfs/subtitle/c2b59f807548188111f6b02882abcd93d6e0ecbf.json",
+    "delay": 7.15
+  },
+  {
+    "name": "[Erai-raws] Nomad - Megalo Box 2 - 08 [v0][1080p][Multiple Subtitle].zh-Hans.srt",
+    "path": "Offline/Anime_Offline/MEGALOBOX 机甲拳击 2",
+    "url": "https://i0.hdslb.com/bfs/subtitle/cef5c763263bc0a678ccd596dafade3c3cea37ee.json",
+    "delay": 7.15
   }
 ]
