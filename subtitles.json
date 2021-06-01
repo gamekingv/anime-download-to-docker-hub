@@ -1,8 +1,14 @@
 [
   {
-    "name": "[Erai-raws] Tensura Nikki - Tensei Shitara Slime Datta Ken - 09 [1080p][Multiple Subtitle].zh-Hans.srt",
-    "path": "Offline/Anime_Offline/关于我转生变成史莱姆这档事 转生史莱姆日记",
-    "url": "https://i0.hdslb.com/bfs/subtitle/f9b27ca2657610099384213719816388f8113d54.json",
-    "delay": 1
+    "name": "[Erai-raws] Jouran - The Princess of Snow and Blood - 10 [1080p][Multiple Subtitle].zh-Hant.srt",
+    "path": "Offline/Anime_Offline/扰乱 THE PRINCESS OF SNOW AND BLOOD",
+    "url": "https://i0.hdslb.com/bfs/subtitle/574dc07cf124cca393b9d01acf09be697a4293e1.json",
+    "delay": 0
+  },
+  {
+    "name": "[Erai-raws] Seijo no Maryoku wa Bannou Desu - 09 [v0][1080p][Multiple Subtitle].zh-Hans.srt",
+    "path": "Offline/Anime_Offline/圣女魔力无所不能",
+    "url": "https://i0.hdslb.com/bfs/subtitle/a613ff402f6689871b65e36d268203fe62417062.json",
+    "delay": 10.05
   }
 ]
