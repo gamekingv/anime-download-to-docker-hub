@@ -5,8 +5,8 @@ concurrency:
   group: clear-workflow
   cancel-in-progress: true
 on:
-  # schedule:
-    # - cron:  '15/10 * * * *'
+  schedule:
+    - cron:  '45 21 * * 5'
   workflow_dispatch:
 
 jobs:
