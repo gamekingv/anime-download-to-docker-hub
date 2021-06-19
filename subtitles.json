@@ -1,8 +1,14 @@
 [
   {
-    "name": "[Erai-raws] Slime Taoshite 300-nen Shiranai Uchi ni Level Max ni Nattemashita - 11 [1080p][Multiple Subtitle].mkv.zh-Hans.srt",
-    "path": "Offline/Anime_Offline/打了300年的史莱姆 不知不觉就练到了满级",
-    "url": "https://i0.hdslb.com/bfs/subtitle/10a51423953ba38fe714b3f2bff8fa34ec941ea7.json",
+    "name": "[Erai-raws] 86 - Eighty-Six - 11 END [1080p][Multiple Subtitle].mkv.zh-Hans.srt",
+    "path": "Offline/Anime_Offline/86－不存在的战区－",
+    "url": "https://i0.hdslb.com/bfs/subtitle/3ec566113d8d6e525919ff4efadc2fa7895f26a1.json",
     "delay": 0
+  },
+  {
+    "name": "[Erai-raws] Battle Athletess Daiundoukai Restart! - 11 [v0][1080p].mkv.zh-Hans.srt",
+    "path": "Offline/Anime_Offline/大运动会 ReSTART！",
+    "url": "https://i0.hdslb.com/bfs/subtitle/c22d7adc61a915e21b1430d9b896762fa32dc7b2.json",
+    "delay": 7.15
   }
 ]
