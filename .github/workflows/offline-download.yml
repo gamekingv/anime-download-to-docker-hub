@@ -58,9 +58,9 @@ jobs:
           aria2c --conf-path=aria2.conf -i list.txt
 
       # 抽取字幕
-      # - name: Extract Subs
-      #   run: |
-      #     mkvinfo Offline/*.mkv
+      - name: Extract Subs
+        run: |
+          node extract-subs.js
 
       # 上传
       - name: Upload
