@@ -62,6 +62,7 @@ async function mapDirectory(root) {
             }
           }
         }
+        if (subtitles.length === 0) return `${mkv}无字幕需要抽取`;
         let extract = `mkvextract tracks "${mkv}"`;
         for (const subtitle of subtitles) {
           extract += ` ${subtitle.trackId}:"${filename}.${subtitle.name}.${subtitle.ext}"`;
