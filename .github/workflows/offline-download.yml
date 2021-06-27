@@ -58,20 +58,20 @@ jobs:
           aria2c --conf-path=aria2.conf -i list.txt
 
       # 抽取字幕
-      - name: Download
-        run: |
-          mkvinfo Offline/*.mkv
+      # - name: Extract Subs
+      #   run: |
+      #     mkvinfo Offline/*.mkv
 
       # 上传
-      # - name: Upload
-      #   run: |
-      #     node upload.js
-      #   env:
-      #     QUEUE_DD_URL: ${{ secrets.URL }}
-      #     QUEUE_DD_USERNAME: ${{ secrets.USERNAME }}
-      #     QUEUE_DD_PASSWORD: ${{ secrets.PASSWORD }}
-      #     QUEUE_DB_URL: ${{ secrets.DB_URL }}
-      #     QUEUE_DB_APIKEY: ${{ secrets.DB_APIKEY }}
+      - name: Upload
+        run: |
+          node upload.js
+        env:
+          QUEUE_DD_URL: ${{ secrets.URL }}
+          QUEUE_DD_USERNAME: ${{ secrets.USERNAME }}
+          QUEUE_DD_PASSWORD: ${{ secrets.PASSWORD }}
+          QUEUE_DB_URL: ${{ secrets.DB_URL }}
+          QUEUE_DB_APIKEY: ${{ secrets.DB_APIKEY }}
 
       # 执行队列剩余任务
       # - name: Queue Pop
