@@ -31,8 +31,12 @@ jobs:
       # 安装环境
       - name: Install Enviroment
         run: |
+          sudo wget -O /usr/share/keyrings/gpg-pub-moritzbunkus.gpg https://mkvtoolnix.download/gpg-pub-moritzbunkus.gpg
+          sudo echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/gpg-pub-moritzbunkus.gpg] https://mkvtoolnix.download/ubuntu/ focal main' >> /etc/apt/sources.list.d/mkvtoolnix.download.list
+          sudo echo 'deb-src [arch=amd64 signed-by=/usr/share/keyrings/gpg-pub-moritzbunkus.gpg] https://mkvtoolnix.download/ubuntu/ focal main' >> /etc/apt/sources.list.d/mkvtoolnix.download.list
           sudo apt-get update
           sudo apt-get install aria2
+          sudo apt-get install mkvtoolnix mkvtoolnix-gu
           npm install
           node fetchtracker.js
 
@@ -53,16 +57,21 @@ jobs:
           cat list.txt
           aria2c --conf-path=aria2.conf -i list.txt
 
-      # 上传
-      - name: Upload
+      # 抽取字幕
+      - name: Download
         run: |
-          node upload.js
-        env:
-          QUEUE_DD_URL: ${{ secrets.URL }}
-          QUEUE_DD_USERNAME: ${{ secrets.USERNAME }}
-          QUEUE_DD_PASSWORD: ${{ secrets.PASSWORD }}
-          QUEUE_DB_URL: ${{ secrets.DB_URL }}
-          QUEUE_DB_APIKEY: ${{ secrets.DB_APIKEY }}
+          mkvinfo --ui-language en Offline/*.mkv
+
+      # 上传
+      # - name: Upload
+      #   run: |
+      #     node upload.js
+      #   env:
+      #     QUEUE_DD_URL: ${{ secrets.URL }}
+      #     QUEUE_DD_USERNAME: ${{ secrets.USERNAME }}
+      #     QUEUE_DD_PASSWORD: ${{ secrets.PASSWORD }}
+      #     QUEUE_DB_URL: ${{ secrets.DB_URL }}
+      #     QUEUE_DB_APIKEY: ${{ secrets.DB_APIKEY }}
 
       # 执行队列剩余任务
       # - name: Queue Pop
