@@ -36,7 +36,7 @@ jobs:
           sudo sh -c 'echo "deb-src [arch=amd64 signed-by=/usr/share/keyrings/gpg-pub-moritzbunkus.gpg] https://mkvtoolnix.download/ubuntu/ focal main" >> /etc/apt/sources.list.d/mkvtoolnix.download.list'
           sudo apt-get update
           sudo apt-get install aria2
-          sudo apt-get install mkvtoolnix mkvtoolnix-gu
+          sudo apt-get install mkvtoolnix
           npm install
           node fetchtracker.js
 
