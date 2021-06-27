@@ -6,8 +6,11 @@
 
 > 任务会并行下载，需要对接IBM Cloudant，在secrets中添加有触发workflow权限的TOKEN变量，以及DB_URL、DB_APIKEY以连接Cloudant。
 
+## 百度网盘
+在baidu-list.txt添加网盘文件路径即可，例如/folder/files.mp4，也可以是目录。需要先在secrets中添加BDUSS。
+
 ## 解压下载
-在decompression-list.txt添加下载链接即可，可以是Aria2支持的所有下载链接，下载后会自动解压所有rar、zip压缩包，之后再上传。
+在decompression-list.txt添加下载链接即可，可以是Aria2支持的所有下载链接，下载后会自动解压所有rar、zip压缩包，之后再上传。支持exhentai的种子链接，需要先在secrets中添加EX_COOKIES。
 
 ## 普通离线下载
 在list.txt添加下载链接即可，可以是Aria2支持的所有下载链接，下载完成后会自动上传。

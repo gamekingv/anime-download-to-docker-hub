@@ -3,7 +3,7 @@ const got = require('got');
 
 const {
   GITHUB_REPOSITORY: repository,
-  // GITHUB_RUN_ID: run_id,
+  GITHUB_RUN_ID: run_id,
   QUEUE_TOKEN: token,
   QUEUE_DISPATCH_TOKEN: dispatchToken
 } = process.env;
@@ -61,39 +61,32 @@ async function triggerNext() {
   });
 }
 
-function mapDirectory(root) {
-  const filesArr = [];
-  root += '/';
-  (function dir(dirpath) {
-    const files = fs.readdirSync(dirpath);
-    files.forEach((item) => {
-      const info = fs.statSync(dirpath + item);
-      if (info.isDirectory()) {
-        dir(dirpath + item + '/');
-      } else {
-        filesArr.push(dirpath + item);
-      }
-    });
-  })(root);
-  return filesArr;
+async function cancelWorkflow() {
+  await client.post(`https://api.github.com/repos/${repository}/actions/runs/${run_id}/cancel`, {
+    headers: {
+      'Accept': 'application/vnd.github.v3+json',
+      'Authorization': `token ${token}`
+    }
+  });
 }
 
 (async () => {
   try {
-    const uploadedFiles = mapDirectory('Offline');
+    const uploadedFiles = JSON.parse(fs.readFileSync('uploaded-list.txt'));
     const files = JSON.parse(fs.readFileSync('google-drive-list.json'));
     const remainFiles = files.filter(file => !uploadedFiles.some(uploadedFile => uploadedFile === `${file.path}/${file.name}`));
     await saveDownloadedList('google-drive-list.json', JSON.stringify(remainFiles, null, 2));
     if (remainFiles.length > 0) {
       console.log(`成功处理 ${uploadedFiles.length} 个文件`);
       console.log(`剩余 ${remainFiles.length} 个文件，将在下一次Actions下载`);
-      if (uploadedFiles.length > 17) {
+      if (uploadedFiles.length > 25) {
         await triggerNext();
         console.log('成功触发下一次任务');
       }
       else {
         console.log('较多文件下载失败，停止触发下一次任务');
-        process.exit(1);
+        await cancelWorkflow();
+        await new Promise(res => setTimeout(() => res(), 60000));
       }
     }
   }

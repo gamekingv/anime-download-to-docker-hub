@@ -51,7 +51,7 @@ async function errorHandler(error) {
       return await Promise.reject(error);
     }
     console.log('请求出错，HTTP状态码：' + error.response.status);
-    console.log(error.response.data);
+    console.log(JSON.stringify(error.response.data, null, 2));
   }
   else console.log(`请求出错：${error.toString()}`);
   config.__retryCount = config.__retryCount || 0;
@@ -532,6 +532,7 @@ function mapDirectory(root) {
     if (ignoreFilters.some(filter => file.match(filter))) {
       console.log('跳过文件：' + file);
       console.log('');
+      uploadedFiles.push(file);
       continue;
     }
     try {
@@ -563,7 +564,6 @@ function mapDirectory(root) {
         size
       });
       uploadedFiles.push(file);
-      fs.writeFileSync('uploaded-list.txt', JSON.stringify(uploadedFiles));
       uploadedCount++;
       if (uploadedCount >= 50) {
         await synchronize();
@@ -575,6 +575,7 @@ function mapDirectory(root) {
     }
     console.log('');
   }
+  fs.writeFileSync('uploaded-list.txt', JSON.stringify(uploadedFiles));
   try {
     if (uploadedCount > 0) {
       await synchronize();
@@ -583,7 +584,7 @@ function mapDirectory(root) {
   }
   catch (error) {
     console.log(error);
-    if (error.response && error.response.body) console.log(error.response.body);
+    if (error.response && error.response.data) console.log(JSON.stringify(error.response.data, null, 2));
     process.exit(1);
   }
 })();
