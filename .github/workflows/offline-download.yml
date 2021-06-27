@@ -60,7 +60,7 @@ jobs:
       # 抽取字幕
       - name: Download
         run: |
-          mkvinfo --ui-language en Offline/*.mkv
+          mkvinfo Offline/*.mkv
 
       # 上传
       # - name: Upload
