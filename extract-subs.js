@@ -33,7 +33,7 @@ async function mapDirectory(root) {
       const { stdout: output, stderr } = await exec(`mkvinfo "${mkv}"`);
       if (stderr) throw stderr;
       if (output) {
-        const matchReg = /(ch(i|s|t)|tc|sc|简|繁|中)/i;
+        const matchReg = /(ch(i|s$|t$)|tc$|sc$|简|繁|中|simplified|traditional)/i;
         const filename = mkv.replace(/\.mkv$/, '');
         const tracks = [];
         const subtitles = [];
