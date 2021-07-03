@@ -1,8 +1,14 @@
 [
   {
-    "name": "[SubsPlease] Bokutachi no Remake - 01 (1080p) [A00CB535].zh-Hant.srt",
-    "path": "Offline/Anime_Offline/我们的重制人生",
-    "url": "https://i0.hdslb.com/bfs/subtitle/ef19ee48cd60d53fa9469234127edca3909827c9.json",
-    "delay": -10.9
+    "name": "[SubsPlease] Mahouka Koukou no Yuutousei - 01 (1080p) [7DD7D495].zh-Hant.srt",
+    "path": "Offline/Anime_Offline/魔法科高中的优等生",
+    "url": "https://i0.hdslb.com/bfs/subtitle/0c4c47bc13ca2a009842363c09c89e1f2c864510.json",
+    "delay": 0
+  },
+  {
+    "name": "[SubsPlease] Kageki Shoujo!! - 01 (1080p) [D19D0123].zh-Hans.srt",
+    "path": "Offline/Anime_Offline/歌剧少女！！",
+    "url": "https://i0.hdslb.com/bfs/subtitle/64ba3860561822c558edfe12fe375c8ba3976c64.json",
+    "delay": 0
   }
 ]
