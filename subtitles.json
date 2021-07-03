@@ -1,14 +1,20 @@
 [
   {
-    "name": "[SubsPlease] Higurashi no Naku Koro ni Sotsu - 01 (1080p) [5890DFCF].zh-Hant.srt",
-    "path": "Offline/Anime_Offline/寒蝉鸣泣之时 卒",
-    "url": "https://i0.hdslb.com/bfs/subtitle/e85ee29e9f816fbc2be8598209d37734aa8b635d.json",
-    "delay": 10.05
+    "name": "[SubsPlease] Vanitas no Carte - 01 (1080p) [9A097E3C].zh-Hant.srt",
+    "path": "Offline/Anime_Offline/瓦尼塔斯的手札",
+    "url": "https://i0.hdslb.com/bfs/subtitle/e5af397de9eaa6bb252fc14a3832ed0b5a52d37f.json",
+    "delay": 0
   },
   {
-    "name": "[SubsPlease] Higurashi no Naku Koro ni Sotsu - 02 (1080p) [74821249].zh-Hant.srt",
-    "path": "Offline/Anime_Offline/寒蝉鸣泣之时 卒",
-    "url": "https://i0.hdslb.com/bfs/subtitle/1cf7cec7a148cd590c6fcee1cf2d0ee043c40b24.json",
-    "delay": 10.05
+    "name": "[SubsPlease] Hamefura S2 - 01 (1080p) [0896F50D].zh-Hans.srt",
+    "path": "Offline/Anime_Offline/转生成为了只有乙女游戏破灭Flag的邪恶大小姐 X",
+    "url": "https://i0.hdslb.com/bfs/subtitle/f1c85531d2d336e0b4da4ee36b4d32f3f0f89b4f.json",
+    "delay": 0
+  },
+  {
+    "name": "[SubsPlease] Kanojo mo Kanojo - 01 (1080p) [565732EC].zh-Hant.srt",
+    "path": "Offline/Anime_Offline/女友成双",
+    "url": "https://i0.hdslb.com/bfs/subtitle/acad15685bd21150e1745aa88e9f0a0694e6b777.json",
+    "delay": 0
   }
 ]
