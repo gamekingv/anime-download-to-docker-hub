@@ -1,8 +1,14 @@
 [
   {
+    "name": "[SubsPlease] Vanitas no Carte - 02 (1080p) [B3918423].zh-Hant.srt",
+    "path": "Offline/Anime_Offline/瓦尼塔斯的手札",
+    "url": "https://i0.hdslb.com/bfs/subtitle/ad673e20495514a3670ba2f55b77be480df49deb.json",
+    "delay": 12.15
+  },
+  {
     "name": "[SubsPlease] Meikyuu Black Company - 01 (1080p) [6D55F052].zh-Hans.srt",
     "path": "Offline/Anime_Offline/异世界迷宫黑心企业",
     "url": "https://i0.hdslb.com/bfs/subtitle/8ef47cbda61a61048aa2cec6ff8030f6599b1706.json",
-    "delay": 0
+    "delay": 10.05
   }
 ]
