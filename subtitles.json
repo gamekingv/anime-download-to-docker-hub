@@ -1,8 +1,14 @@
 [
   {
-    "name": "[SubsPlease] Tokyo Revengers - 14 (1080p) [CFF4A3D5].zh-Hant.srt",
-    "path": "Offline/Anime_Offline/东京复仇者",
-    "url": "https://i0.hdslb.com/bfs/subtitle/cda6784d7342f5bb1604c9957252ee96ac9759cc.json",
+    "name": "[SubsPlease] Scarlet Nexus - 01 (1080p) [41627799].undefined.srt",
+    "path": "Offline/Anime_Offline/绯红结系",
+    "url": "https:undefined",
+    "delay": 0
+  },
+  {
+    "name": "[SubsPlease] Scarlet Nexus - 02 (1080p) [20C7457D].undefined.srt",
+    "path": "Offline/Anime_Offline/绯红结系",
+    "url": "https:undefined",
     "delay": 0
   }
 ]
