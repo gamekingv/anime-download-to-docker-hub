@@ -1,14 +1,8 @@
 [
   {
-    "name": "[SubsPlease] Shiroi Suna no Aquatope - 02 (1080p) [1EFCBB33].zh-Hans.srt",
-    "path": "Offline/Anime_Offline/白沙的水族馆",
-    "url": "https://i0.hdslb.com/bfs/subtitle/3e4e68187cfb599f6cac2cd8d79f463b8a48b488.json",
-    "delay": 0
-  },
-  {
     "name": "[SubsPlease] Sonny Boy - 01 (1080p) [DF33FC90].zh-Hans.srt",
     "path": "Offline/Anime_Offline/漂流少年",
     "url": "https://i0.hdslb.com/bfs/subtitle/6379d1a2e9895357c4e3f31142f6ecef7e16c8e1.json",
-    "delay": 0
+    "delay": 7.15
   }
 ]
