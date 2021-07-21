@@ -1,8 +1,14 @@
 [
   {
-    "name": "[SubsPlease] Tsuki ga Michibiku Isekai Douchuu - 03 (1080p) [4327B216].zh-Hans.srt",
-    "path": "Offline/Anime_Offline/月光下的异世界之旅",
-    "url": "https://i0.hdslb.com/bfs/subtitle/d0e87d75ed9386742a6f0521acff9a6a43a7a2a1.json",
+    "name": "[SubsPlease] Kobayashi-san Chi no Maid Dragon S2 - 03 (1080p) [12E0FB45].zh-Hans.srt",
+    "path": "Offline/Anime_Offline/小林家的龙女仆S",
+    "url": "https://i0.hdslb.com/bfs/subtitle/6cad81d6621a211d659ca03d6eea301557b1e221.json",
     "delay": 0
+  },
+  {
+    "name": "[SubsPlease] Megami-ryou no Ryoubo-kun. - 02 (1080p) [39361B46].zh-Hant.srt",
+    "path": "Offline/Anime_Offline/女神宿舍的管理员",
+    "url": "https://i0.hdslb.com/bfs/subtitle/bc194e84f10b00634bc3a1953705d0923afda9b5.json",
+    "delay": 1
   }
 ]
