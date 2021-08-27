@@ -1,8 +1,14 @@
 [
   {
-    "name": "[SubsPlease] Meikyuu Black Company - 08 (1080p) [D904F50D].zh-Hant.srt",
-    "path": "Offline/Anime_Offline/异世界迷宫黑心企业",
-    "url": "https://i0.hdslb.com/bfs/subtitle/fdf876dd0be54d790c58cd97813430ad4c4739e3.json",
+    "name": "[SubsPlease] Vanitas no Carte - 09 (1080p) [64D6843D].zh-Hant.srt",
+    "path": "Offline/Anime_Offline/瓦尼塔斯的手札",
+    "url": "https://i0.hdslb.com/bfs/subtitle/2f32c59ae4a2a4ea05f277c4229da7603e9dc993.json",
     "delay": 7.15
+  },
+  {
+    "name": "[SubsPlease] 100-man no Inochi no Ue ni Ore wa Tatte Iru - 20 (1080p) [628B33A8].zh-Hant.srt",
+    "path": "Offline/Anime_Offline/我立于百万生命之上 第二季",
+    "url": "https://i0.hdslb.com/bfs/subtitle/b20146b78a1ee594fd0b0deb73397bfe873d5b63.json",
+    "delay": 0
   }
 ]
