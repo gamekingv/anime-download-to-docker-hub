@@ -1,8 +1,20 @@
 [
   {
-    "name": "[SubsPlease] Bokutachi no Remake - 09 (1080p) [E5B0665C].zh-Hant.srt",
-    "path": "Offline/Anime_Offline/我们的重制人生",
-    "url": "https://i0.hdslb.com/bfs/subtitle/dbaffd40caf0a646eae08d35cb79a33195118a49.json",
-    "delay": -10.9
+    "name": "[SubsPlease] Peach Boy Riverside - 10 (1080p) [C703C2CC].zh-Hant.srt",
+    "path": "Offline/Anime_Offline/桃子男孩渡海而来",
+    "url": "https://i0.hdslb.com/bfs/subtitle/9241757c8e43cfc06c97b246ecb7dc549af300a8.json",
+    "delay": 0
+  },
+  {
+    "name": "[SubsPlease] Kageki Shoujo!! - 10 (1080p) [5250A961].zh-Hant.srt",
+    "path": "Offline/Anime_Offline/歌剧少女！！",
+    "url": "https://i0.hdslb.com/bfs/subtitle/8319ba1b6e4b0f30a0b83ba245fac9d78cea0547.json",
+    "delay": 7.15
+  },
+  {
+    "name": "[SubsPlease] Mahouka Koukou no Yuutousei - 10 (1080p) [F09CFDA5].zh-Hant.srt",
+    "path": "Offline/Anime_Offline/魔法科高中的优等生",
+    "url": "https://i0.hdslb.com/bfs/subtitle/b46a64dec6ae5d71007d101b04b24b59897e5a91.json",
+    "delay": 7.15
   }
 ]
