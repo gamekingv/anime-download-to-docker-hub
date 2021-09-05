@@ -1,8 +1,14 @@
 [
   {
-    "name": "[SubsPlease] Tokyo Revengers - 22 (1080p) [A0EB16C5].zh-Hant.srt",
-    "path": "Offline/Anime_Offline/东京复仇者",
-    "url": "https://i0.hdslb.com/bfs/subtitle/c2793b10e85f7e61b02c4a72b4bcd1e6c44d33cf.json",
-    "delay": 0
+    "name": "[SubsPlease] Shinigami Bocchan to Kuro Maid - 10 (1080p) [0B7A7C44].zh-Hant.srt",
+    "path": "Offline/Anime_Offline/死神少爷与黑女仆",
+    "url": "https://i0.hdslb.com/bfs/subtitle/ecf6bf0a0338ed60544c03a02699967b8a022b3d.json",
+    "delay": -4
+  },
+  {
+    "name": "[SubsPlease] Tantei wa Mou, Shindeiru. - 10 (1080p) [F9F0FE42].zh-Hant.srt",
+    "path": "Offline/Anime_Offline/侦探已死",
+    "url": "https://i0.hdslb.com/bfs/subtitle/7791306393c88a18cbee1320779adfd91dfbff0e.json",
+    "delay": 7.15
   }
 ]
