@@ -1,8 +1,14 @@
 [
   {
-    "name": "[SubsPlease] Cheat Kusushi no Slow Life - Isekai ni Tsukurou Drugstore - 11 (1080p) [6E2FBB44].zh-Hant.srt",
-    "path": "Offline/Anime_Offline/开挂药师的悠闲生活",
-    "url": "https://i0.hdslb.com/bfs/subtitle/0955ecd9119d82b741008ee5bd91cfde2f5cf701.json",
+    "name": "[SubsPlease] Tsuki ga Michibiku Isekai Douchuu - 11 (1080p) [06625EC3].zh-Hant.srt",
+    "path": "Offline/Anime_Offline/月光下的异世界之旅",
+    "url": "https://i0.hdslb.com/bfs/subtitle/18636681c30b9f1b5a7e43597dc1502e1eeb348c.json",
+    "delay": 0
+  },
+  {
+    "name": "[SubsPlease] Heike Monogatari - 01 (1080p) [516659CC].zh-Hans.srt",
+    "path": "Offline/Anime_Offline/平家物语",
+    "url": "https://s.bstarstatic.com/ogv/subtitle/5c6e2f16d61159a4dcc2f3e982d13f042f39a5d9.json?auth_key=1631891221-0-0-155abd45bb90b1aecebbb272ba8d64bd",
     "delay": 0
   }
 ]
