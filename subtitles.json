@@ -1,8 +1,14 @@
 [
   {
-    "name": "[SubsPlease] Higurashi no Naku Koro ni Sotsu - 13 (1080p) [A1898666].zh-Hant.srt",
-    "path": "Offline/Anime_Offline/寒蝉鸣泣之时 卒",
-    "url": "https://i0.hdslb.com/bfs/subtitle/49d2e7392bc2ff34b296428e063bd586563b4f65.json",
+    "name": "[SubsPlease] Shiroi Suna no Aquatope - 11 (1080p) [CCA2DA76].zh-Hant.srt",
+    "path": "Offline/Anime_Offline/白沙的水族馆",
+    "url": "https://i0.hdslb.com/bfs/subtitle/eff8a9c70322c76f74776105c307a8698732c97f.json",
+    "delay": 0
+  },
+  {
+    "name": "[SubsPlease] Sonny Boy - 10 (1080p) [DBAED02D].zh-Hant.srt",
+    "path": "Offline/Anime_Offline/漂流少年",
+    "url": "https://i0.hdslb.com/bfs/subtitle/a7f9dbe45c545eb5148c6f24766875ec5680d26a.json",
     "delay": 7.15
   }
 ]
