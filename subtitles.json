@@ -1,8 +1,50 @@
 [
   {
-    "name": "[SubsPlease] Meikyuu Black Company - 11 (1080p) [A994CFD2].zh-Hant.srt",
-    "path": "Offline/Anime_Offline/异世界迷宫黑心企业",
-    "url": "https://i0.hdslb.com/bfs/subtitle/8e57777b2eff40be9b9dc827136626c6e64d9b59.json",
+    "name": "[SubsPlease] Vanitas no Carte - 12 (1080p) [2C250463].zh-Hant.srt",
+    "path": "Offline/Anime_Offline/瓦尼塔斯的手札",
+    "url": "https://i0.hdslb.com/bfs/subtitle/588c09c87f330eade7dff4319dc039284d262d2a.json",
+    "delay": 7.15
+  },
+  {
+    "name": "[SubsPlease] Hamefura S2 - 12 (1080p) [07A9724D].zh-Hant.srt",
+    "path": "Offline/Anime_Offline/转生成为了只有乙女游戏破灭Flag的邪恶大小姐 X",
+    "url": "https://i0.hdslb.com/bfs/subtitle/abec83288d6c83e4f0959bc22fc0b8e3868fc631.json",
+    "delay": 0
+  },
+  {
+    "name": "[SubsPlease] Kanojo mo Kanojo - 12 (1080p) [6E59D6D3].zh-Hant.srt",
+    "path": "Offline/Anime_Offline/女友成堆",
+    "url": "https://i0.hdslb.com/bfs/subtitle/6f440f3797605cd5b98a74072ba153fc283a8ab6.json",
+    "delay": 0
+  },
+  {
+    "name": "[SubsPlease] Bokutachi no Remake - 11 (1080p) [DDECA972].zh-Hant.srt",
+    "path": "Offline/Anime_Offline/我们的重制人生",
+    "url": "https://i0.hdslb.com/bfs/subtitle/67dd3ba6dffaaa7d3d99710aba1303cbc466bd03.json",
+    "delay": -10.9
+  },
+  {
+    "name": "[SubsPlease] Kageki Shoujo!! - 12 (1080p) [424F6624].zh-Hant.srt",
+    "path": "Offline/Anime_Offline/歌剧少女！！",
+    "url": "https://i0.hdslb.com/bfs/subtitle/dea3cab61c2dbd532252018a6dd42d2c76d75938.json",
+    "delay": 7.15
+  },
+  {
+    "name": "[SubsPlease] 100-man no Inochi no Ue ni Ore wa Tatte Iru - 23 (1080p) [70CF36D2].zh-Hant.srt",
+    "path": "Offline/Anime_Offline/我立于百万生命之上 第二季",
+    "url": "https://i0.hdslb.com/bfs/subtitle/eaf41b5cae711f5eaf18708912565173e5ff9b16.json",
+    "delay": 0
+  },
+  {
+    "name": "[SubsPlease] Blue Reflection Ray - 23 (1080p) [7D9C65BD].zh-Hant.srt",
+    "path": "Offline/Anime_Offline/BLUE REFLECTION RAY 澪",
+    "url": "https://i0.hdslb.com/bfs/subtitle/4acf53e438ee051e6694c845807d9287eb529374.json",
+    "delay": 7.15
+  },
+  {
+    "name": "[SubsPlease] Mahouka Koukou no Yuutousei - 12 (1080p) [9D1B6F3C].zh-Hant.srt",
+    "path": "Offline/Anime_Offline/魔法科高中的优等生",
+    "url": "https://i0.hdslb.com/bfs/subtitle/827fec0cf7727432d187a6e0bf1b26e69e96e4ae.json",
     "delay": 7.15
   }
 ]
