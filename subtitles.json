@@ -1,8 +1,14 @@
 [
   {
-    "name": "[SubsPlease] Kobayashi-san Chi no Maid Dragon S2 - 12 (1080p) [606ECDA3].zh-Hant.srt",
-    "path": "Offline/Anime_Offline/小林家的龙女仆S",
-    "url": "https://i0.hdslb.com/bfs/subtitle/61fcc3583b5a36c5693ad42a2c1a3b872fce0e1d.json",
+    "name": "[SubsPlease] Ganbare Douki-chan - 01 (1080p) [9FA71CB5].zh-Hant.srt",
+    "path": "Offline/Anime_Offline/加油吧同期酱",
+    "url": "https://i0.hdslb.com/bfs/subtitle/6f57ec6889de8a60cef6b8717977a6234b416278.json",
+    "delay": 0
+  },
+  {
+    "name": "[SubsPlease] Getsuyoubi no Tawawa S2 - 01 (1080p) [376F5C72].zh-Hant.srt",
+    "path": "Offline/Anime_Offline/星期一的丰满 第二季",
+    "url": "https://i0.hdslb.com/bfs/subtitle/e1498af87f6e1816428445d912499b00ff6bb0f4.json",
     "delay": 0
   }
 ]
